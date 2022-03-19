@@ -1,0 +1,20 @@
+Model,MAE,MSE,RMSE,,,,,,,
+MLR,45.2486,3870.5838,62.214,,,,,,,
+DLR,40.1416,3171.8081,56.3188,,,,,,,
+RFR,24.7584,1663.406,40.7848,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,Decision tree
+,,,,,,,,,,
+,,,,,,,,,,"max_depth': 8,"
+,,,,,,,,,," 'max_features': 'auto',"
+,,,,,,,,,," 'max_leaf_nodes': 30,"
+,,,,Random forest regressor,,,,,," 'min_samples_leaf': 1,"
+,,,,,,,,,," 'min_weight_fraction_leaf': 0.1,"
+,,,,"n_estimators': 500,",,,,,, 'splitter': 'best'
+,,,," 'min_samples_split': 2,",,,,,,
+,,,," 'min_samples_leaf': 1,",,,,,,
+,,,," 'max_features': 'sqrt',",,,,,,
+,,,, 'max_depth': 15,,,,,,
